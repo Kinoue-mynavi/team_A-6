@@ -16,8 +16,6 @@ def proccessing(salary: int):
 
 # -----------------------
 
-num: int = "kdkdk"
-
 # 処理を実行する
 def implement(arg):
     proccessing(arg)
