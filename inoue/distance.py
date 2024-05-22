@@ -15,7 +15,7 @@ DISTANCE = {
 
 def print_distance():
     if first_arg and second_arg:
-      result = round(DISTANCE[first_arg] - DISTANCE[second_arg], 2)if  DISTANCE[first_arg] > DISTANCE[second_arg] else round(DISTANCE[second_arg] - DISTANCE[first_arg], 2)
+      result = round(DISTANCE[first_arg] - DISTANCE[second_arg], 2) if  DISTANCE[first_arg] > DISTANCE[second_arg] else round(DISTANCE[second_arg] - DISTANCE[first_arg], 2)
       return result
     else:
       return "Error: Please enter the first and second arguments"

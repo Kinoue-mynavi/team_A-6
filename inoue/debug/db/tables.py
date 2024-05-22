@@ -1,7 +1,6 @@
 import sys
 from sqlalchemy import Column, String, Date, Integer
-from database import Base
-from database import ENGINE
+from .database import Base, ENGINE
 
 #テーブル：Holidayの定義
 class Holiday(Base):
